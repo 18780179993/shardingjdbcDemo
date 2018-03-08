@@ -1,0 +1,17 @@
+spring: 
+  datasources:  
+      - datasourceName: DEFAULT ##数据源bean的名称
+        url: jdbc:mysql://localhost:3306/db1?useSSL=false&useUnicode=true&characterEncoding=utf-8
+        username: root
+        password: 123456
+        driverClassName: com.mysql.jdbc.Driver
+      - datasourceName: ds_1
+        url: jdbc:mysql://localhost:3306/db2?useSSL=false&useUnicode=true&characterEncoding=utf-8
+        username: root
+        password: 123456
+        driverClassName: com.mysql.jdbc.Driver 
+      - datasourceName: ds_2
+        url: jdbc:mysql://localhost:3306/db2?useSSL=false&useUnicode=true&characterEncoding=utf-8
+        username: root
+        password: 123456
+        driverClassName: com.mysql.jdbc.Driver 
